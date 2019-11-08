@@ -2,8 +2,8 @@
 
 set -ex
 
-sudo ip link set wlp3s0 up
-sudo ifup wlp3s0
+# sudo ip link set wlp3s0 up
+# sudo ifup wlp3s0
 sudo apt-get install xorg firefox-esr vim git
 sudo apt install aptitude
 sudo aptitude install dwm suckless-tools
